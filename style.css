@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+}
+
+.letters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: none;
+    width: 50%;
+    height: 500px;
+}
+
+img {
+    max-height: 100%;
+    transition: all 0.4s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    margin-left: 10px;
+    margin-right: 10px;
+}
