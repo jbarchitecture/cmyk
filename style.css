@@ -25,6 +25,7 @@ img {
     transition: all 0.4s;
 }
 
+
 img:hover {
     transform: scale(1.1);
     margin-left: 10px;
